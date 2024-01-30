@@ -1,0 +1,247 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color:#000000 ;
+    font-family: 'Lato', sans-serif;
+    color: #ffffff;
+   
+}
+.container{
+    display: flex;
+    height: 620px;
+}
+.side_bar{
+    height: 560px;
+    width: 450px;
+    margin: 30px 0px 50px 50px;
+}
+.con_1{
+    width: 100%;
+    height: 345px;
+    border-radius: 10px;
+    background-color:  rgb(10, 10, 10);
+}
+.con_2{
+    width: 100%;
+    height: 150px;
+    margin-top: 40px;
+    background-color: rgb(10, 10, 10);
+    border-radius: 10px;
+   
+}
+.con_1 img{
+    width: 200px;
+    height: 120px;
+    margin-left: 60px;
+    margin-top: 0px;
+   
+}
+.con_1 p{
+    margin-left: 45px;
+    margin-top: 0px;
+    font-size: 37px;
+    font-weight: lighter;
+    font-family: 'Lato', sans-serif;
+    color: #ada9a9;
+}
+.con_1 h2{
+    margin-left: 75px;
+    margin-top: 5px;
+    font-size: 60px;
+    font-weight: 500;
+    font-family: 'Lato', sans-serif;
+    color: #cfcfcf;
+}
+.con_1 h2 span{
+    margin-left: 10px;
+}
+.con_2 h3{
+    margin-left: 25px;
+    margin-top: 25px;
+    font-size: 25px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    color: #ddd5d5;
+    /* line-height: 30px; */
+}
+.con_2 p{
+    margin-left: 25px;
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: l00;
+    font-family: 'Lato', sans-serif;
+    color: #b6b1b1;
+}
+.container1{
+    width: 100%;
+    margin-left: 30px;
+    margin-top: 30px;
+    height: 532px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0,0,0,0.7)), url(banner.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+   
+}
+.nav img{
+    height: 100px;
+    width: 150px;
+    margin-top: 0px;
+    margin-left: 50px;
+    cursor: pointer;
+  
+}
+.button button{
+    border: 0;
+    outline: 0;
+    background: #db0001;
+    color: #fff;
+    padding: 7px 20px;
+    font-size: 12px;
+    border-radius: 4px;
+    margin-left: 10px;
+    cursor: pointer;
+    margin-right: 100px ;
+}
+.body{
+   width: 600px;
+   height: 300px;
+   margin-left: 150px;
+   margin-top: 100px;
+  
+}
+.body h2{
+    margin-left: 125px;
+    margin-top: 5px;
+    font-size: 40px;
+    font-weight: 500;
+    font-family: 'Lato', sans-serif;
+    color: #beb8b8;
+}
+.body h2 span{
+    margin-left: 45px;
+    
+}
+.body h3{
+    margin-left: 200px;
+    margin-top: 5px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    color: #c7c4c4;
+}
+.body p{
+    margin-left: 135px;
+    margin-top: 25px;
+    font-size: 12px;
+    font-weight: 200;
+    font-family: 'Lato', sans-serif;
+    color: #d6cbcb;
+}
+.input{
+    display: flex;
+    margin-left: 125px;
+    margin-top: 10px;
+}
+.input input{
+    width: 300px;
+    height: 35px;
+    background-color: #ebe5e5;
+    border: none;
+    padding-left: 5px;
+    font-size: 10px;
+    color: #818181;
+    font-weight: 500;
+}
+.input button{
+    border: 0;
+    outline: 0;
+    background: #db0001;
+    color: #fff;
+    width: 100px;
+    font-size: 15px;
+    cursor: pointer;
+   
+}
+.hr{
+    height: 2px;
+    background-color: #1b1b1b;
+    border: none;
+}
+.container_1{
+    margin-top: 50px;
+    height: 300px;
+    display: flex;
+}
+.container_1 h3{
+    margin-top: 80px;
+    margin-left: 250px;
+    font-size: 32px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    color: #c7c2c2;
+}
+.container_1 p{
+    margin-left: 250px;
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    color: #ddcece;
+    word-spacing: 2px;
+}
+.img_con img{
+   width: 400px;
+   height: 220px;
+   margin-left: 100px;
+   margin-top: 30px;
+   display: block;
+   cursor: pointer;
+}
+.container_2{
+    margin-top: 50px;
+    height: 300px;
+    
+}
+.container_2 p{
+    margin-left: 249px;
+    margin-top: 25px;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    color: #2c2c2c;
+    word-spacing: 2px;
+    cursor: pointer;
+}
+.footer{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 254px;
+}
+.in{
+    margin-right: 50px;
+    width: 190px;
+    line-height: 50px;
+    color: #2c2c2c;
+    font-size: 13px;
+    font-weight: 300;
+}
+.in h4{
+    cursor: pointer;
+}
+footer h5{
+    margin-top: 40px;
+    margin-left: 254px;
+    color: #2c2c2c;
+    font-size: 13px;
+    font-weight: 300;
+    cursor: pointer;
+}
